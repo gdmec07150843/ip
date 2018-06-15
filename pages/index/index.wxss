@@ -1,0 +1,39 @@
+page{
+   background-image: url("https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1527828610126&di=0c3cbba9807938bdb138a585c3f15131&imgtype=0&src=http%3A%2F%2Fwww.g-photography.net%2Ffile_news%2Fwanghong%2F20150930%2F201509301030477445.jpg");
+}  
+
+.content {
+   
+  margin-top: 200rpx;
+  position: relative;
+}
+
+.form {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
+
+.form text {
+  font-size: 50rpx;
+  color: #fff;
+}
+.form input{
+  height: 150rpx;
+  margin: 0 auto;
+  /*background-color: red;*/
+  padding: 0 20%;
+  color: #fff;
+
+}
+.form button{
+  margin: 20rpx 30rpx;
+  width: 200rpx;
+}
+.site{
+  position: absolute;
+  left: 50rpx;
+  top: 350rpx;
+  color: #fff;
+  margin-top: 200rpx;
+}

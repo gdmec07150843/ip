@@ -1,0 +1,144 @@
+
+page{
+  
+  background-image: url("https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1527828610126&di=0c3cbba9807938bdb138a585c3f15131&imgtype=0&src=http%3A%2F%2Fwww.g-photography.net%2Ffile_news%2Fwanghong%2F20150930%2F201509301030477445.jpg");
+}
+
+.user-info{
+  width: 100%;
+  height: 400rpx;
+ color: #FFFFFF;
+  margin-top: 30rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.kf{
+ 
+    background: none;
+    border:none;
+    
+  
+  width: 100%;
+  height: 120rpx;
+  color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  font-size: 30rpx;
+  padding: 0 70rpx;
+}
+
+.user-info .head{
+  width: 210rpx;
+  height: 210rpx;
+ color: #FFFFFF;
+  border-radius: 50%;
+  margin-top: 30rpx;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.user-info .head image{
+  
+  width: 70%;
+  height: 70%;
+}
+.user-info .head .own-avatar{
+  width: 100%;
+  height: 100%;
+}
+.user-info .login-btn{
+  margin-top: 60rpx;
+}
+
+.login-btn .username{
+  font-size: 36rpx;
+}
+
+.exit{
+  right: 20rpx;
+  margin-top: 25rpx;
+  width: 100%;
+  height: 120rpx;
+  color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  font-size: 30rpx;
+  padding: 0 70rpx;
+}
+
+.exit2{
+  right: 20rpx;
+  margin-top: -11rpx;
+  margin-left: -66rpx;
+  width: 100%;
+  height: 120rpx;
+  color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  font-size: 30rpx;
+  padding: 0 70rpx;
+}
+
+.fk{
+  margin-top: -7rpx;
+  color: #FFFFFF;
+  width: 100%;
+  height: 120rpx;
+  display: flex;
+  align-items: center;
+  font-size: 30rpx;
+  padding: 0 70rpx;
+}
+
+
+.tsmall-back{
+  background-color: #FFFFFF;
+  width: 100%;
+  height:3rpx;
+  margin-top:0rpx;
+
+}
+
+.collect-img{
+  width: 40rpx;
+  height: 40rpx;
+  position: absolute; 
+  left: 2%;
+  top: 50%;
+  margin-top: -40rpx;  
+}
+
+.collect-img2{
+  width: 40rpx;
+  height: 40rpx;
+  position: absolute; 
+  left: 2%;
+  top: 61%;
+  margin-top: -40rpx;  
+}
+
+.collect-text{
+  position: absolute; 
+  top: 50%;
+ margin-top: -40rpx;  
+ margin-left: 80rpx;
+}
+
+.collect-text-to{
+  position: absolute; 
+  top: 50%;
+ margin-top: -51rpx;  
+ margin-left: 690rpx;
+ color: #FFFFFF;
+}
+
+.collect-text-to2{
+  position: absolute; 
+  top: 50%;
+ margin-top: 68rpx;  
+ margin-left: 690rpx;
+ color: #FFFFFF;
+}

@@ -1,0 +1,3 @@
+<!--pages/about/about.wxml-->
+<text>个人开发的练手作品</text>
+<view data-make-bug="1" data-makeBug="2" bindtap='handleTap1'>dataset</view>

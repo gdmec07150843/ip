@@ -1,0 +1,17 @@
+
+
+<view class="content">
+
+  <view class='form'>
+    <form bindsubmit="formSubmit" bindreset="formReset">
+      <text class='title'>IP地址归属地查询</text>
+      <input class='input' type='digit' name="ip" value='{{thisip}}' placeholder='请输入IP地址'></input>
+      <button size='mini' class='sub' formType="submit">提交</button>
+      <button size='mini' class='res' formType='reset'>重置</button>
+    </form> 
+  </view>
+</view>
+<view class='site'>
+<text>来自：{{site}}</text>
+
+</view>

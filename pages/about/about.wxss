@@ -1,0 +1,8 @@
+/* pages/about/about.wxss */
+page{
+     background-image: url("https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1527828610126&di=0c3cbba9807938bdb138a585c3f15131&imgtype=0&src=http%3A%2F%2Fwww.g-photography.net%2Ffile_news%2Fwanghong%2F20150930%2F201509301030477445.jpg");
+}
+
+text{
+  color: #ffffff;
+}

@@ -1,0 +1,31 @@
+<!--pages/myself/myself.wxml-->
+   <view class='user-info'>
+    <view class='head'>
+      <image wx:if="{{login}}" src="{{userInfo.avatarUrl}}" mode='scaleToFill' class='own-avatar'></image>
+      <image wx:else src='../../image/nologin.png' mode='widthFix'></image>
+    </view>
+    <view class='login-btn'>
+        <view wx:if="{{login}}" class='username'>{{userInfo.nickName}},你好</view>
+        <button wx:else size='mini' open-type="getUserInfo" hidden='{{login}}' bindgetuserinfo="bindGetUserInfo">微信登录</button>
+    </view>  
+</view> 
+<view  bindtap='About'>
+ <image src='../../image/my_coll.png' class='collect-img'></image>
+<view class='exit'>关于我们</view>
+<view class='collect-text-to'>></view>
+</view>
+ <view class='tsmall-back'>
+  </view>
+
+
+<button class='kf' open-type="contact">
+ <image src='../../image/my_coll.png' class='collect-img2'></image>
+<view class='exit2'>
+意见反馈
+</view>
+
+</button>
+<view class='collect-text-to2'>></view>
+ <view class='tsmall-back'>
+  </view>
+
