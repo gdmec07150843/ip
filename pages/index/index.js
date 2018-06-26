@@ -35,11 +35,11 @@ Page({
 onLoad:function(e){
   var that=this
   wx.request({
-    url: 'http://ip-api.com/json',
+    url: 'https://www.gdmecyyn.xyz/ip.php',
     success: function (res) {
-      console.log(res.data.query);
+      console.log(res.data);
       that.setData({
-        thisip: res.data.query
+        thisip: res.data
       })
       
     }
