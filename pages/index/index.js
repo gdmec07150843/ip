@@ -2,17 +2,18 @@ Page({
 
   data:{
     aa:"110"
+    
   },
   formSubmit: function (e) {
     var that = this;
     wx.request({
-      url: 'https://dm-81.data.aliyun.com/rest/160601/ip/getIpInfo.json',
+      url: 'https://www.gdmecyyn.xyz/city.php',
       method: "get",
       data: {
         ip: e.detail.value.ip,
       }, 
       header:{
-        "Content-Type": "application/json; charset=utf-8", "Authorization": "APPCODE 6076d0415ef8428594ed2487fa2efcfa"
+        "Content-Type": "application/json; charset=utf-8"
       },
       success: function (res) {
         console.log(typeof(res.data.data));
@@ -43,18 +44,5 @@ onLoad:function(e){
       
     }
   })
-
-  for(var i=1;i<=3;i++){
-    setTimeout(function(){
-      console.log(i);
-    },0);
-  }
-
-  
 }
-
- 
-
-
-
 })
