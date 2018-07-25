@@ -9,7 +9,7 @@
         <button wx:else size='mini' open-type="getUserInfo" hidden='{{login}}' bindgetuserinfo="bindGetUserInfo">微信登录</button>
     </view>  
 </view> 
-<view  bindtap='About'>
+<view  bindtap='About' class='collect'>
  <image src='../../image/my_coll.png' class='collect-img'></image>
 <view class='exit'>关于我们</view>
 <view class='collect-text-to'>></view>
@@ -23,9 +23,9 @@
 <view class='exit2'>
 意见反馈
 </view>
-
+<view class='collect-text-to'>></view>
 </button>
-<view class='collect-text-to2'>></view>
+
  <view class='tsmall-back'>
   </view>
 

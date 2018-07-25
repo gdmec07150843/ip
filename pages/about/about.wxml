@@ -1,3 +1,8 @@
 <!--pages/about/about.wxml-->
-<text>个人开发的练手作品</text>
-<view data-make-bug="1" data-makeBug="2" bindtap='handleTap1'>dataset</view>
+<view>
+  <view class='self'>【功能介绍】</view>
+  <view class='home'>【首页】</view>
+  <view class='matter'>当用户进入首页时，默认获取你当前的IP地址，当用户点击搜索时候，查询当前用户输入的IP所属的运营商以及所在的省份城市。</view>
+  <view class='home'>【我的】</view>
+  <view class='matter'>用户在我的页面上，可以选择微信登录，登录过后，开启更多权限，可以联系我们。。。</view>
+</view>

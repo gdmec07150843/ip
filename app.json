@@ -3,6 +3,7 @@
     "pages/index/index",
     "pages/myself/myself",
     "pages/about/about"
+    
   ],
   "window":{
     "backgroundTextStyle":"light",

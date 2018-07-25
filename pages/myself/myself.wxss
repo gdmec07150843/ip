@@ -18,14 +18,11 @@ page{
     background: none;
     border:none;
     
-  
-  width: 100%;
-  height: 120rpx;
-  color: #FFFFFF;
-  display: flex;
-  align-items: center;
-  font-size: 30rpx;
-  padding: 0 70rpx;
+   width: 100%;
+  height: 160rpx;
+  padding: 0 30rpx;
+  box-sizing: border-box;
+  position: relative;
 }
 
 .user-info .head{
@@ -59,9 +56,9 @@ page{
 
 .exit{
   right: 20rpx;
-  margin-top: 25rpx;
+  margin-top: 9%;
   width: 100%;
-  height: 120rpx;
+  height: 111rpx;
   color: #FFFFFF;
   display: flex;
   align-items: center;
@@ -70,16 +67,17 @@ page{
 }
 
 .exit2{
-  right: 20rpx;
-  margin-top: -11rpx;
-  margin-left: -66rpx;
-  width: 100%;
-  height: 120rpx;
-  color: #FFFFFF;
-  display: flex;
-  align-items: center;
-  font-size: 30rpx;
-  padding: 0 70rpx;
+ right:20rpx;
+margin-top:11rpx;
+margin-left:-66rpx;
+width:100%;
+height:120rpx;
+color:#FFFFFF;
+display:flex;
+align-items:center;
+font-size:30rpx;
+padding:0 130rpx;
+
 }
 
 .fk{
@@ -98,26 +96,34 @@ page{
   background-color: #FFFFFF;
   width: 100%;
   height:3rpx;
-  margin-top:0rpx;
+  margin-top:-22rpx;
 
+}
+
+.collect{
+  width: 100%;
+  height: 160rpx;
+  padding: 0 30rpx;
+  box-sizing: border-box;
+  position: relative;
 }
 
 .collect-img{
   width: 40rpx;
   height: 40rpx;
   position: absolute; 
-  left: 2%;
   top: 50%;
-  margin-top: -40rpx;  
+  margin-top: -40rpx;   
 }
 
 .collect-img2{
-  width: 40rpx;
-  height: 40rpx;
-  position: absolute; 
-  left: 2%;
-  top: 61%;
-  margin-top: -40rpx;  
+  width:40rpx;
+height:40rpx;
+position:absolute;
+left:4%;
+top:56%;
+margin-top:-40rpx;
+  
 }
 
 .collect-text{
@@ -130,15 +136,15 @@ page{
 .collect-text-to{
   position: absolute; 
   top: 50%;
- margin-top: -51rpx;  
- margin-left: 690rpx;
+ margin-top: -57rpx;  
+ margin-left: 665rpx;
  color: #FFFFFF;
 }
 
 .collect-text-to2{
   position: absolute; 
   top: 50%;
- margin-top: 68rpx;  
- margin-left: 690rpx;
+ margin-top: -57rpx;  
+ margin-left: 665rpx;
  color: #FFFFFF;
 }
